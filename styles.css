@@ -1,0 +1,18 @@
+.first{
+    background-color: #46C9EA;
+    color: black;
+}
+.container-projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+  
+.container-projects .card {
+    width: 18rem;
+}
+
+.custom-bg-color {
+    background-color: #212A3E;
+}

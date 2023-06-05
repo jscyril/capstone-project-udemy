@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone Project</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      /* Custom CSS for mobile responsiveness */
+      @media (max-width: 767px) {
+        .first .row {
+          flex-direction: column;
+        }
+        .first .col-10 {
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="first">
+      <div class="container col-xxl-8 col-sm-12 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-12 col-lg-6">
+            <img
+              src="./images/SVG/Designer _Flatline.svg"
+              class="d-block mx-lg-auto img-fluid"
+              alt="Bootstrap Themes"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Hey!</h1>
+            <h2>
+              I'm Jacob Sebastian Cyril, an aspiring frontend web developer.
+            </h2>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="p-5 text-center bg-body-tertiary rounded-3">
+      <svg
+        class="bi mt-4 mb-3"
+        style="color: var(--bs-indigo)"
+        width="100"
+        height="100"
+      >
+      <img src="./images/SVG/Designer _Isometric.svg" class="d-block mx-auto img-fluid" alt="Bootstrap Themes" width="300" height="auto" loading="lazy" />
+
+      </svg>
+      <h1 class="text-body-emphasis">About me</h1>
+      <p class="col-lg-8 col-sm-12 mx-auto fs-5 text-muted">
+        I'm an aspiring web developer on a journey to master the art of frontend
+        development while embracing the challenges of a full stack course. I'm
+        passionate about creating visually appealing and user-friendly websites,
+        and I'm eager to learn and showcase my newfound skills in website
+        development
+      </p>
+      <div class="d-inline-flex gap-2 mb-5"></div>
+    </div>
+
+    <div class="my-5">
+      <div class="p-5 text-center bg-body-tertiary">
+        <div class="container py-5">
+          <h1 class="text-body-emphasis">My Projects</h1>
+          <p class="col-lg-8 col-sm-12 mx-auto lead">
+            These are some of the projects I've created
+          </p>
+        </div>
+        <div class="container-projects">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./images/Screenshot_20230605_181737.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">TinDog</h5>
+              <p class="card-text">
+                TinDog is a prototype design for a dating website for dogs.
+              </p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="./images/mondarin.png"
+              class="card-img-top"
+              alt="..."
+              height="200"
+              width="200"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mondrian Design</h5>
+              <p class="card-text">Mondrian art created using CSS.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="p-5 text-center custom-bg-color">
+      <div class="container py-5">
+        <h2 class="text-white">Get In Touch</h2>
+        <p class="col-lg-8 col-sm-12 mx-auto lead text-white">
+          Click the button below to access my contact details:
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light btn-lg"
+          data-bs-toggle="modal"
+          data-bs-target="#contact"
+        >
+          Contact Me
+        </button>
+      </div>
+    </div>
+
+    <div class="modal" id="contact" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Contact Details</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>Gmail: abc@gmail.com</p>
+            <p>Contact Number: +91-1234567890</p>
+            <p>
+              LinkedIn:
+              <a href="https://www.linkedin.com/in/jacob-cyril-71935124b/"
+                >Click Here</a
+              >
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
